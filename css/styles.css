@@ -9,6 +9,7 @@ body{
     background-color: #e4e3e3;
     position: fixed;
     width: 100%;
+    overflow: hidden;
 }
 
 .navbar ul{
