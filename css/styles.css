@@ -1,42 +1,67 @@
 body{
-    margin: 0;
-    background-color: #3b6978;
+    margin: 0px;
 }
-li{
-    display: inline-block ;
+/*the navbar*/
+.nav-container{
+    position: relative;
 }
-
-#nav{
+.navbar{
+    background-color: #e4e3e3;
     position: fixed;
-    top: 0 ;
-    background-color: #c5cad3;
     width: 100%;
-    overflow: hidden;
 }
 
-#nav ul{
+.navbar ul{
     margin: 0;
-    height: 45px;
+    padding: 0;
 }
 
-#nav a{
-    float: left;
-    display: block;
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
+.navbar li{
+    display: inline-block;
+    padding : 15px 25px;
+}
+
+.navbar a{
     text-decoration: none;
-    
+    font-size: 17px;
+    color: #3d3a3a;
+    float: left;
 }
 
-
-
-   
-
-#top-container {
-    background-color: #84a9ac;
+.navbar a:hover{
+    font-size: 19.5px ;
+}
+/*****top section*****/
+/*pictures*/
+.top{
+    padding-top: 60px;
     text-align: center;
-    margin-top: 45px;
+    background-color: #84a9ac;
 }
-
-
+.clouds{
+    width: 175px;
+    height: auto;
+}
+.first-cloud{
+    position: absolute;
+    right: 200px;
+    top: 160px;
+  
+}
+.mountain{
+    position: relative;
+    top: 20px;
+    padding-bottom: 30px;
+    height: 379px;
+    width: auto;
+}
+.second-cloud{
+    position: absolute;
+    left: 220px;
+    top: 230px;
+}
+.third-cloud{
+    position: absolute;
+    right: 400px;
+    top: 200px;
+}
