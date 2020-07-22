@@ -1,12 +1,17 @@
 body{
     margin: 0px;
+    width: 100%;
+
+    padding: 0;
+}
+hr{
+    border: solid 0.2px;
+    margin: 0;
 }
 /*the navbar*/
-.nav-container{
-    position: relative;
-}
+
 .navbar{
-    background-color: #e4e3e3;
+    background-color: #9c9ca1;
     position: fixed;
     width: 100%;
     overflow: hidden;
@@ -25,7 +30,7 @@ body{
 .navbar a{
     text-decoration: none;
     font-size: 17px;
-    color: #3d3a3a;
+    color: #1a2020;
     float: left;
 }
 
@@ -33,36 +38,138 @@ body{
     font-size: 19.5px ;
 }
 /*****top section*****/
-/*pictures*/
 .top{
-    padding-top: 60px;
+    padding-top: 100px;
     text-align: center;
-    background-color: #84a9ac;
+    background-color: #63b7af;
 }
-.clouds{
-    width: 175px;
-    height: auto;
+.top h1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 70px;
+    color: #41415e;
 }
-.first-cloud{
-    position: absolute;
-    right: 200px;
-    top: 160px;
-  
-}
-.mountain{
-    position: relative;
-    top: 20px;
-    padding-bottom: 30px;
-    height: 379px;
+
+.top-photo{
+    padding-top: 70px;
+    position: static;
+    vertical-align: top;
     width: auto;
 }
-.second-cloud{
-    position: absolute;
-    left: 220px;
-    top: 230px;
+/*****middle section*****/
+.middle{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    text-align: center;
 }
-.third-cloud{
-    position: absolute;
-    right: 400px;
-    top: 200px;
+/****profile*****/
+.profile{
+    background-color: #00a1ab;
+    padding-top: 50px;
+}
+.profile img{
+    height: 220px;
+    height: 220px;
+}
+.profile p{
+    margin-bottom: 0;
+}
+
+/***************skills**********************/
+
+.skills{
+    
+    background-color: #abf0e9;
+    
+}
+.skills h2{
+    margin-top: 0;
+    padding-top: 20px;
+}
+/*******coding********/
+
+.coding h3{
+    margin-bottom: 0;
+}
+.coding p{
+    margin-top: 0;
+    display: inline-block;
+    vertical-align: 110%;
+}
+.coding-img{
+    height: 128px;
+    width: 128px;
+    padding-right: 40px;
+}
+/********Illustration********/
+.illustration p{
+    margin-top: 0;
+    display: inline-block;
+    vertical-align: 170%;
+    padding-bottom: 20px;
+}
+.layer-img{
+    height: 128px;
+    width: 128px;
+    text-align: right;
+}
+.illustration span{
+    font-size: 17px;
+}
+/********hire********/
+.hire{
+    background-color: #ee8572;
+    padding: 7px 0;
+}
+.hire h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+.hire p{
+    font-size: 18.5px;
+}
+/*******email*****/
+.email h3{
+    margin-bottom: 0;
+}
+.email button{
+    width: 195px;
+    height: 47px;
+    background-color: #00a1ab;
+    border: none;
+    position: relative;
+    margin-bottom: 40px;
+}
+.email button:hover{
+    width: 200px;
+    height: 50px;
+}
+.email a{
+    text-decoration: none;
+    color: #1a2020;
+    font-size: 25px;
+    font-family: 'Inconsolata', monospace;
+}
+/***********bottom sectoin************/
+.bottom{
+    background-color: lightseagreen;
+    font-family: 'Comfortaa', cursive;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/************bottom-nav********/
+.bottom-nav ul{
+    margin-top: 0;
+    text-align: center;
+    padding-top: 20px;
+}
+.bottom-nav li{
+    display: inline-block;
+    padding-right: 50px;
+    margin-top: 0px;
+}
+.bottom-nav a{
+    text-decoration: none;
+    font-size: 17px;
 }
